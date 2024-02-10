@@ -1,6 +1,6 @@
 <p align="left"><img src="https://komarev.com/ghpvc/?username=cybermist2" alt="cybermist2"/> </p>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cybermist2&theme=dark&layout=compact&hide=roff,assembly,yacc,objective-c)](https://github.com/cybermist2/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cybermist2&theme=dark&layout=compact&hide=roff,assembly,yacc,objective-a)](https://github.com/cybermist2/github-readme-stats)
 
 
 ![CyberMist2's GitHub stats](https://github-readme-stats.vercel.app/api?username=CyberMist2&show_icons=true&theme=merko)
