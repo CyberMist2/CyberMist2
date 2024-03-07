@@ -5,7 +5,7 @@
 
 ![CyberMist2's GitHub stats](https://github-readme-stats.vercel.app/api?username=CyberMist2&show_icons=true&theme=merko)
 
-⚡Sponsor me: https://github.com/sponsors/cybermist2
+⚡Sponsor me: https://revolut.me/cybermist
 <!--
 **CyberMist2/CyberMist2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
