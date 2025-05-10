@@ -1,9 +1,160 @@
-<p align="left"><img src="https://komarev.com/ghpvc/?username=cybermist2" alt="cybermist2"/> </p>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Glitch</title>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+body {
+  background: black;
+  font-family: "Oswald", sans-serif;
+  font-style: italic;
+}
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cybermist2&theme=dark&layout=compact&hide=roff,assembly,yacc,objective-a)](https://github.com/cybermist2/github-readme-stats)
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+}
+
+.glitch {
+  color: rgb(223, 191, 191);
+  position: relative;
+  font-size: 9vw;
+  // margin: 70px 200px;
+  animation: glitch 5s 5s infinite;
+}
+
+.glitch::before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: -5px 0 orange;
+  background: black;
+  overflow: hidden;
+  top: 0;
+  animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+}
+
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -5px 0 red;
+  background: black;
+  overflow: hidden;
+  top: 0;
+  animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+}
+
+@keyframes glitch {
+  1%{
+    transform: rotateX(10deg) skewX(90deg);
+  }
+  2%{
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+
+@keyframes noise-1 {
+  $steps: 30;
+  @for $i from 1 through $steps {
+    #{percentage($i*(1/$steps))} {
+      $top: random(100);
+      $bottom: random(101 - $top);
+      clip-path: inset(#{$top}px 0 #{$bottom}px 0);
+    }
+  }
+}
+
+@keyframes noise-2 {
+  $steps: 30;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      $top: random(100);
+      $bottom: random(101 - $top);
+      clip-path: inset(#{$top}px 0 #{$bottom}px 0);
+    }
+  }
+}
+
+.scanlines {
+  overflow: hidden;
+  mix-blend-mode: difference;
+}
+
+.scanlines::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 255, 255, 0.05) .5%,
+    transparent 1%
+  );
+
+  animation: fudge 7s ease-in-out alternate infinite;
+}
 
 
-![CyberMist2's GitHub stats](https://github-readme-stats.vercel.app/api?username=CyberMist2&show_icons=true&theme=merko)
+@keyframes fudge {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0px, 2%);
+  }
+}
+
+.glow {
+  @extend .glitch;
+  text-shadow: 0 0 1000px rgb(223, 191, 191);
+  color: transparent;
+  position: absolute;
+  top: 0;
+}
+
+.subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: .8vw;
+  color: rgba(165, 141, 141, .4);
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  text-align: center;
+  position: absolute;
+  left: 17%;
+  animation: glitch-2 5s 5.02s infinite;
+}
+
+@keyframes glitch-2 {
+  1%{
+    transform: rotateX(10deg) skewX(70deg);
+  }
+  2%{
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div class="glitch" data-text="CYBERMIST2">CYBERMIST2</div>
+  <div class="glow">CYBERMIST2</div>
+  <p class="subtitle">C# ~ PHP ~ SQL ~ JS ~ HTML</p>
+  </div>
+  <div class="scanlines"></div>
+</body>
+</html>
+
 
 <!--
 **CyberMist2/CyberMist2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
