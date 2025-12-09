@@ -1,10 +1,5 @@
 <p align="left"><img src="https://komarev.com/ghpvc/?username=cybermist2" alt="cybermist2"/> </p>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cybermist2&theme=dark&layout=compact&hide=roff,assembly,yacc,objective-a)](https://github.com/cybermist2/github-readme-stats)
-
-
-![CyberMist2's GitHub stats](https://github-readme-stats.vercel.app/api?username=CyberMist2&show_icons=true&theme=merko)
-
 <!--
 **CyberMist2/CyberMist2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
