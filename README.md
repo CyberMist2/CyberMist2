@@ -6,7 +6,7 @@ Hey everyone! Our brand new top servers website **[EpicTop100.com](https://epict
 
 To celebrate, we’re giving **every user who joins 30 coins** — just redeem this code in your **User Control Panel**:
 
-:gem: `CODEBYVISION2026` - valid until **2026 April 30**
+:gem: `CYBERMIST2GITHUB` - unlimited validity
 
 **Use your 30 coins to unlock 30 days of Premium!** :star:
 
