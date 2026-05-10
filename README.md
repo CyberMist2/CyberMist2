@@ -6,8 +6,6 @@ Hey everyone! Our brand new top servers website **[EpicTop100.com](https://epict
 
 :point_right: **EpicTop100.com supports postback**, so all votes are properly verified by the system (the same way all top site networks handle vote validation).
 
-Don’t miss out — register now, redeem your code, and enjoy your Premium perks!
-
 :link: https://epictop100.com
 
 <!--
