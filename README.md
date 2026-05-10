@@ -4,12 +4,6 @@
 
 Hey everyone! Our brand new top servers website **[EpicTop100.com](https://epictop100.com)** is officially live! :rocket:
 
-To celebrate, we’re giving **every user who joins 30 coins** — just redeem this code in your **User Control Panel**:
-
-:gem: `CYBERMIST2GITHUB` - unlimited validity
-
-**Use your 30 coins to unlock 30 days of Premium!** :star:
-
 :point_right: **EpicTop100.com supports postback**, so all votes are properly verified by the system (the same way all top site networks handle vote validation).
 
 Don’t miss out — register now, redeem your code, and enjoy your Premium perks!
